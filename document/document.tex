@@ -1,16 +1,17 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage{etoolbox}
 \usepackage{fullpage}
 \usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
 \usepackage{xcolor}
 \usepackage{graphicx}
-\usepackage{xepersian}
 \usepackage{placeins}
+\usepackage{xepersian}
 
 \newcommand{\StudentOne}{4011262134}
 \newcommand{\StudentTwo}{4011262098}
 \newcommand{\NameOne}{مینا جمشیدی}
 \newcommand{\NameTwo}{مبینا محمدی}
-\newcommand{\ProjectName}{مستندات پروژه clustering}
+\newcommand{\ProjectName}{مستندات پروژه stack learning}
 
 
 \definecolor{CustomBackground}{HTML}{1C1C1C}
@@ -113,5 +114,121 @@ Path = fonts/]
 	\item نتایج نشان می‌دهند که حتی بدون \lr{fine-tuning} شبکه، استفاده از ویژگی‌های استخراج‌شده از \lr{ResNet18} می‌تواند عملکرد بالایی در طبقه‌بندی تصاویر داشته باشد.
 \end{itemize}
 
+\section{نتایج فاز دوم}
+در این فاز، هدف ما استفاده از روش Stacking برای ترکیب خروجی مدل‌های مختلف است تا با بهره‌گیری همزمان از سطوح مختلف ویژگی‌ها (Low، Mid، High) و مدل‌های متنوع یادگیری ماشین، عملکرد نهایی طبقه‌بندی را بهبود ببخشیم. انتظار داریم این روش در مقایسه با فاز قبلی (استفاده مجزای هر مدل بر روی یک سطح از ویژگی‌ها)، نتایج بهتری به همراه داشته باشد.
+\\
+برای پیاده‌سازی استک لرنر، دو رویکرد متفاوت مورد استفاده قرار گرفت:
+\\
+۱. روش مبتنی بر کتابخانه (استفاده از StackingClassifier)\\
+در این روش، از کلاس StackingClassifier در کتابخانه scikitlearn استفاده شد. مدل‌های پایه به‌صورت زیر تعریف شدند:\\
+SVM \\
+\lr{Random Forest}\\
+\lr{Logistic Regression}\\
+\lr{Naive Bayes}
+\lr{MLP }\\
+با استفاده از تنظیم هایپرپارامترها و آزمون مدل‌های مختلف، سعی کردیم بهترین ترکیب ممکن را برای استک بیابیم. همچنین حذف و اضافه کردن مدل‌های مختلف نیز انجام شد. این آزمایش‌ها نشان دادند که افزودن مدل‌های بیشتر به‌صورت قابل‌توجهی دقت را افزایش نمی‌دهد و صرفاً موجب افزایش زمان آموزش می‌گردد.\\
+با این‌که دقت آموزش بسیار بالا بود، اما در داده‌های آزمون شاهد افت بودیم. این مسئله نشان‌دهنده وقوع Overfitting بود. برای رفع این مشکل، از  DataAugmentation استفاده شد که تا حدی در کاهش اورفیت مؤثر واقع شد، اما به سطح رضایت‌بخشی نرسید.
+\\
+بدون اضافه کردن داده:
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-high.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-high2.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-mid.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-mid2.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-low.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{1-low2.png}
+\end{figure}
+\FloatBarrier
+\\
+نتایج نشان میدهد همچنان ویژگی high بهتر از بقیه عمل میکند. و در دو ویژگی دیگر اورفیت به وجود آمده.و در تمام ویژگی ها کلاس 2 بهتر از بقیه عمل کرده (اسب) که احتمالا به دلیل وجود ویژگی های متمایز بیشتر نسبت به دو گروه دیگر است.
+\\
+اضافه کردن داده:
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{2-high.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{2-mid.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{2-low.png}
+\end{figure}
+\FloatBarrier
+\\
+نتایج نشان می دهد اضافه کردن داده به طور چشمگیری دقت را افزایش نمیدهد ولی کمی در جلوگیری از اورفیت کمک کرده است.
+\\
+۲. روش دستی (ساخت استک با کنترل بیشتر)\\
 
-\end{document}
+در این روش، برخلاف رویکرد کتابخانه‌ای، خودمان فرآیند استکینگ را به‌صورت دستی پیاده‌سازی کردیم. این امر کنترل بیشتری در تنظیم و انتخاب مدل‌ها  به ما داد. در این ساختار، یک یا چند مدل پایه انتخاب شد و خروجی‌های احتمالاتی آن‌ها با استفاده از  \lr{cross val predict}استخراج شده و به مدل نهایی داده شد.
+\\
+در این روش تنظیمات مدل‌ها دقیق‌تر و هدفمندتر انجام شد.
+حتی بدون استفاده از داده افزوده‌شده (Augmentation) نیز دقت تست بالاتری نسبت به روش قبلی حاصل شد.
+ساختار طراحی‌شده موجب کاهش اورفیت و افزایش قابلیت تعمیم مدل نهایی شد.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{3-high.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{3-mid.png}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{3-low.png}
+\end{figure}
+\FloatBarrier
+\\
+در اینجا در جلوگیری از اورفیت خیلی بهتر عمل شده و در ویژگی های high همه ی کلاس ها درصد خوبی دارند و در ویژگی mid کلاس 0 بهتر عمل کرده است و در ویژگی low کلاس 1 و 2 بهتر عمل کرده اند.و این نشان میدهد کنترل دستی در کنترل اورفیت کمک بسیاری کرده است
+\\
+در انتهای این فاز، برای تست نتیجه دو حالت دیگر نیز برای ساخت استک مورد آزمایش قرار گرفت:
+\\
+
+استفاده از تمام سطوح ویژگی‌ها به‌طور همزمان به‌عنوان ورودی به مدل نهایی.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{all.png}
+\end{figure}
+\FloatBarrier
+\\
+ساخت استک ترکیبی با توجه به نتایج فاز اول، به این صورت که از هر سطح ویژگی، فقط بهترین مدل طبقه‌بند (با توجه به دقت فاز قبلی) انتخاب شده و در استک نهایی استفاده گردید.
+\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{tarkib.png}
+\end{figure}
+\FloatBarrier
+\\
+نتایج نشان دادند که حالت دوم (ترکیبی و انتخابی) به مراتب ساده‌تر، سریع‌تر و با عملکرد مشابه یا بهتر نسبت به حالت اول عمل کرده است.\\
+مقایسه نتایج فاز اول با نتایج فاز دوم نشان می دهد تفاوت زیادی در ویژگی high وجود ندارد ( همیشه درصد خوبی است) ولی برای دو ویژگی دیگر اینکه از چه روشی استفاده شده است تاثیر گذار است ولی در کل اورفیت در فاز دوم خیلی کمتر است و نتایج قابل اعتماد تراست
+\end{document} 
