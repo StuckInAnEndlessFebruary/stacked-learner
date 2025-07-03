@@ -1,178 +1,217 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.7.3)  3 JUL 2025 17:38
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.3)  3 JUL 2025 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./document.tex
 (document.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count271
+\c@section=\count272
+\c@subsection=\count273
+\c@subsubsection=\count274
+\c@paragraph=\count275
+\c@subparagraph=\count276
+\c@figure=\count277
+\c@table=\count278
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
-) (C:\Program Files\MiKTeX\tex/latex/preprint\fullpage.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.s
+ty
 Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip50
+\FP@margin=\skip51
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip51
-
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip52
 For additional information on amsmath, use the `?' option.
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen141
+\ex@=\dimen149
 ))
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
-)
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen150
+) (C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count192
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count193
-\leftroot@=\count194
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count195
-\DOTSCASE@=\count196
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count197
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count198
-\dotsspace@=\muskip16
-\c@parentequation=\count199
-\dspbrk@lvl=\count266
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count285
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip17
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
 \tag@help=\toks18
-\row@=\count267
-\column@=\count268
-\maxfields@=\count269
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
 \andhelp@=\toks19
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
 \@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
 )
-(C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks22
 \thm@bodyfont=\toks23
 \thm@headfont=\toks24
 \thm@notefont=\toks25
 \thm@headpunct=\toks26
-\thm@preskip=\skip54
-\thm@postskip=\skip55
-\thm@headsep=\skip56
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
 \dth@everypar=\toks27
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amscd.sty
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
 \athelp@=\toks28
-\minaw@=\dimen150
-\bigaw@=\dimen151
-\minCDarrowwidth=\dimen152
+\minaw@=\dimen158
+\bigaw@=\dimen159
+\minCDarrowwidth=\dimen160
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.
+def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.
+ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks29
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
-cfg
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 106.
 )
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
 ) (placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Program Files\MiKTeX\tex/xelatex/xepersian\xepersian.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count292
+\float@exts=\toks30
+\float@box=\box55
+\@float@everytoks=\toks31
+\@floatcapt=\box56
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen163
+\captionmargin=\dimen164
+\caption@leftmargin=\dimen165
+\caption@rightmargin=\dimen166
+\caption@width=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
+Package caption Info: float package is loaded.
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/xepersian\xepersi
+an.sty
 Package: xepersian 2025/02/02 v25.2.2 (Release Persian Gate) Persian typesettin
 g in XeLaTeX
 
@@ -201,21 +240,530 @@ g in XeLaTeX
 * Primary author of xepersian package: Vafa Khalighi.
 * 
 ****************************************************
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
-se.sty
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-01-04 L3 programming layer (loader) 
 
-(C:\Users\Mobina\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xe
-tex.def
-File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
-\g__graphics_track_int=\count270
-\l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count271
-\g__pdf_backend_annotation_int=\count272
-\g__pdf_backend_link_int=\count273
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.s
+ty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\x
+parse.sty
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-06-09 L3 programming layer (loader) 
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count295
+\g__pdfannot_backend_int=\count296
+\g__pdfannot_backend_link_int=\count297
 ))
-Package: xparse 2023-10-10 L3 Experimental document command parser
+Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX an
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-x
+etex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count298
+\l__fontspec_language_int=\count299
+\l__fontspec_strnum_int=\count300
+\l__fontspec_tmp_int=\count301
+\l__fontspec_tmpa_int=\count302
+\l__fontspec_tmpb_int=\count303
+\l__fontspec_tmpc_int=\count304
+\l__fontspec_em_int=\count305
+\l__fontspec_emdef_int=\count306
+\l__fontspec_strong_int=\count307
+\l__fontspec_strongdef_int=\count308
+\l__fontspec_tmpa_dim=\dimen171
+\l__fontspec_tmpb_dim=\dimen172
+\l__fontspec_tmpc_dim=\dimen173
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.c
+fg)))
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/xepersian\xepersi
+an-persiancal.sty
+Package: xepersian-persiancal 2025/01/01 v0.3 provides Persian calendar
+\XePersian@i=\count309
+\XePersian@y=\count310
+\XePersian@m=\count311
+\XePersian@d=\count312
+\XePersian@latini=\count313
+\XePersian@persiani=\count314
+\XePersian@latinii=\count315
+\XePersian@persianii=\count316
+\XePersian@latiniii=\count317
+\XePersian@persianiii=\count318
+\XePersian@latiniv=\count319
+\XePersian@persianiv=\count320
+\XePersian@latinv=\count321
+\XePersian@persianv=\count322
+\XePersian@latinvi=\count323
+\XePersian@persianvi=\count324
+\XePersian@latinvii=\count325
+\XePersian@persianvii=\count326
+\XePersian@latinviii=\count327
+\XePersian@persianviii=\count328
+\XePersian@latinix=\count329
+\XePersian@persianix=\count330
+\XePersian@latinx=\count331
+\XePersian@persianx=\count332
+\XePersian@latinxi=\count333
+\XePersian@persianxi=\count334
+\XePersian@latinxii=\count335
+\XePersian@persianxii=\count336
+\XePersian@persianxiii=\count337
+\XePersian@temp=\count338
+\XePersian@temptwo=\count339
+\XePersian@tempthree=\count340
+\XePersian@yModHundred=\count341
+\XePersian@thirtytwo=\count342
+\XePersian@dn=\count343
+\XePersian@sn=\count344
+\XePersian@mminusone=\count345
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/xepersian\unicode
+-persianmath.sty
+Package: unicode-persianmath 2025/02/02 v1.2.3 Unicode Persian math
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\bidi.sty
+Package: bidi 2025/02/02 v25.2.2 (Release Maryam Mirzakhani) Bidirectional type
+setting in plain TeX and LaTeX
+
+****************************************************
+* 
+* bidi package (Bidirectional typesetting in
+* plain TeX and LaTeX, using XeTeX engine)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2025 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v25.2.2 (Release Maryam Mirzakhani), 2025/02/02
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/xetex/latex/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Discussions: https://github.com/xepersian/bidi/discussions
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\biditools.st
+y
+Package: biditools 2025/02/02 v2.7 Programming tools for bidi package
+\@bidi@envbody=\toks32
+\@bidi@emptytoks=\toks33
+\bidi@poscount=\count346
+\bidi@tempcountb=\count347
+\bidi@temptoksa=\toks34
+\bidi@temptoksb=\toks35
+\bidi@dummies=\count348
+\bidi@are@these@correct=\toks36
+\bidi@toks@lista=\toks37
+\bidi@toks@listb=\toks38
+\bidi@stack@length=\count349
+\bidi@empty@stack=\toks39
+\bidi@looprepeat@depth=\count350
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.s
+ty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds
+.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count351
+Package zref Info: New property: abspage on input line 67.
+)
+\@bidi@copyins@=\insert252
+\bidi@typesethour=\count352
+\bidi@typesetminute=\count353
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\latex-xetex-
+bidi.def
+File: latex-xetex-bidi.def 2025/01/03 v1.5.2 bidi adaptations for `latex.ltx' f
+or XeTeX engine
+\bidi@n@everypar=\toks40
+LaTeX Info: Redefining \centerline on input line 316.
+LaTeX Info: Redefining \leftline on input line 325.
+LaTeX Info: Redefining \rightline on input line 326.
+LaTeX Info: Redefining \underline on input line 334.
+\bidi@column@check@number=\count354
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\footnote-xet
+ex-bidi.def
+File: footnote-xetex-bidi.def 2024/12/14 v1.3 bidi footnote macros for XeTeX en
+gine
+\c@footdir@label=\count355
+\footdir@toks=\toks41
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\article-xete
+x-bidi.def
+File: article-xetex-bidi.def 2025/01/05 v0.9 bidi adaptations for standard arti
+cle class for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\amsmath-xete
+x-bidi.def
+File: amsmath-xetex-bidi.def 2020/05/16 v1.2 bidi adaptations for amsmath packa
+ge for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\amstext-xete
+x-bidi.def
+File: amstext-xetex-bidi.def 2016/09/12 v0.2 bidi adaptations for amstext packa
+ge for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\amsthm-xetex
+-bidi.def
+File: amsthm-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for amsthm package
+ for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\caption-xete
+x-bidi.def
+File: caption-xetex-bidi.def 2010/07/25 v0.1 bidi adaptations for caption packa
+ge for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\caption3-xet
+ex-bidi.def
+File: caption3-xetex-bidi.def 2013/04/01 v0.1 bidi adaptations for caption3 pac
+kage for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\color-xetex-
+bidi.def
+File: color-xetex-bidi.def 2013/04/08 v0.2 bidi adaptations for color package f
+or XeTeX engine
+LaTeX Info: Redefining \color on input line 49.
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\float-xetex-
+bidi.def
+File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
+or XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\graphicx-xet
+ex-bidi.def
+File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
+kage for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\xcolor-xetex
+-bidi.def
+File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package
+ for XeTeX engine
+LaTeX Info: Redefining \color on input line 48.
+LaTeX Info: Redefining \bidicolor on input line 91.
+))
+\bidi@digits=\count356
+\bidi@digits@charclass=\XeTeXcharclass1
+\bidi@sepmark@charclass=\XeTeXcharclass2
+)
+\xepersian@tcl=\count357
+\xepersian@ilg=\dimen174
+\xepersian@strutilg=\dimen175
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/xepersian\footnot
+e-xetex-bidi-xetex-xepersian.def
+File: footnote-xetex-bidi-xetex-xepersian.def 2017/08/09 v0.6 xepersian adaptat
+ions for footnotes for XeTeX engine
+)
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/xepersian\article
+-xetex-xepersian.def
+File: article-xetex-xepersian.def 2010/07/25 v0.2 xepersian adaptations for sta
+ndard article class for XeTeX engine
+)
+\xepersian@toks=\toks42
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'lmroman10-regular(0)' created for font
+(fontspec)             'lmroman10-regular' with options
+(fontspec)             [Ligatures=TeX,Path,BoldFont={lmroman10-bold},BoldItalic
+Font={lmroman10-bolditalic},ItalicFont={lmroman10-italic},SmallCapsFont={lmroma
+ncaps10-regular},SlantedFont={lmromanslant10-regular},BoldSlantedFont={lmromans
+lant10-bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
+ping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
+g=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-regular]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
+mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[lmromanslant10-bold]/OT:script=latn;language=dflt;m
+apping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[lmromancaps10-regular]/OT:script=latn;language=dflt
+;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Vazir.ttf(0)' created for font 'Vazir.ttf'
+(fontspec)             with options
+(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,BoldFont
+(fontspec)             = Vazir-Bold.ttf,Path = fonts/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Vazir.ttf]/OT:script=latn;language=dflt;scrip
+t=arab;mapping=persian-tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Vazir-Bold.ttf]/OT:script=latn;language=dflt;
+script=arab;mapping=persian-tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Vazir.ttf(1)' created for font 'Vazir.ttf'
+(fontspec)             with options [Ligatures=TeX,BoldFont =
+(fontspec)             Vazir-Bold.ttf,Path = fonts/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Vazir.ttf]/OT:script=latn;language=dflt;mappi
+ng=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Vazir-Bold.ttf]/OT:script=latn;language=dflt;
+mapping=tex-text;"
+
+LaTeX Info: Redefining \latinfont on input line 29.
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/xelatex/bidi\float-xetex-
+bidi.def
+File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
+or XeTeX engine
+) (document.aux)
+\openout1 = `document.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+
+
+(C:\Users\Mohaddese\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: 1-1.jpg Graphic file (type bmp)
+<1-1.jpg>
+File: 1-2.png Graphic file (type bmp)
+<1-2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[1
+
+]
+
+[2]
+File: 2-1.jpg Graphic file (type bmp)
+<2-1.jpg>
+File: 2-2.png Graphic file (type bmp)
+<2-2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[3
+
+]
+File: 3-1.jpg Graphic file (type bmp)
+<3-1.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4]
+File: 3-2.png Graphic file (type bmp)
+<3-2.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[5]
+
+[6]
+Overfull \hbox (2.60568pt too wide) in paragraph at lines 138--139
+[][]\TU/Vazir.ttf(0)/m/n/12 با اینکه دقت آموزش بسیار بالا بود، اما در داده‌های 
+آزمون شاهد افت بودیم. این مسئله نشان‌دهندهٔ[]
+ []
+
+File: 1-high.png Graphic file (type bmp)
+<1-high.png>
+File: 1-high-2.png Graphic file (type bmp)
+<1-high-2.png>
+
+
+[7
+
+]
+File: 1-mid.png Graphic file (type bmp)
+<1-mid.png>
+File: 1-mid-2.png Graphic file (type bmp)
+<1-mid-2.png>
+
+
+[8]
+File: 1-low.png Graphic file (type bmp)
+<1-low.png>
+File: 1-low-2.png Graphic file (type bmp)
+<1-low-2.png>
+
+
+[9]
+
+[10]
+File: 2-high.png Graphic file (type bmp)
+<2-high.png>
+File: 2-mid.png Graphic file (type bmp)
+<2-mid.png>
+File: 2-low.png Graphic file (type bmp)
+<2-low.png>
+
+
+[11]
+File: 3-high.png Graphic file (type bmp)
+<3-high.png>
+
+
+[12]
+File: 3-mid.png Graphic file (type bmp)
+<3-mid.png>
+File: 3-low.png Graphic file (type bmp)
+<3-low.png>
+
+
+[13]
+File: all.png Graphic file (type bmp)
+<all.png>
+File: tarkib.png Graphic file (type bmp)
+<tarkib.png>
+
+
+[14]
+
+[15]
+
+[16] (document.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 10313 strings out of 403336
+ 244120 string characters out of 5462191
+ 661027 words of memory out of 5000000
+ 38487 multiletter control sequences out of 15000+600000
+ 631662 words of font info for 82 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,6n,107p,932b,311s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on document.pdf (16 pages).
